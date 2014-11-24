@@ -1,0 +1,20 @@
+{
+  "name": "cocktail-method-modifiers",
+  "version": "0.9.0",
+  "description": "Moose-like method modifiers as cocktailJS annotations",
+  "main": "lib/cocktail-method-modifiers",
+  "scripts": {
+    "test": "node test/runtests.js"
+  },
+  "author": {
+     "name": "Jonathan Stowe",
+     "email": "jns+node@gellyfish.co.uk"
+  },
+  "license": "BSD",
+  "dependencies": {
+    "cocktail": "~0.6.0"
+   },
+   "devDependencies": {
+    "qunit": "~0.7.5"
+  }
+}
