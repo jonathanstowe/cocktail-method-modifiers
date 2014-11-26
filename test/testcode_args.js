@@ -21,7 +21,7 @@ Test.prototype.around_meth = function(arg) {
     return this.around_val;
 };
 
-var Modifiers = require("../lib/method-modifiers");
+var Modifiers = require("../lib/cocktail-method-modifiers");
 
 cocktail.use(Modifiers);
 
