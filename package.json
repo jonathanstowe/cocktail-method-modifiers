@@ -10,6 +10,13 @@
      "name": "Jonathan Stowe",
      "email": "jns+node@gellyfish.co.uk"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanstowe/cocktail-method-modifiers.git"
+  },
+ "bugs": {
+    "url": "https://github.com/jonathanstowe/cocktail-method-modifiers/issues"
+  },
   "license": "BSD",
   "dependencies": {
     "cocktail": "~0.6.0"
