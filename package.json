@@ -7,21 +7,22 @@
     "test": "node test/runtests.js"
   },
   "author": {
-     "name": "Jonathan Stowe",
-     "email": "jns+node@gellyfish.co.uk"
+    "name": "Jonathan Stowe",
+    "email": "jns+node@gellyfish.co.uk"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jonathanstowe/cocktail-method-modifiers.git"
   },
- "bugs": {
+  "bugs": {
     "url": "https://github.com/jonathanstowe/cocktail-method-modifiers/issues"
   },
   "license": "BSD",
   "dependencies": {
-    "cocktail": "~0.6.0"
-   },
-   "devDependencies": {
+    "cocktail": "~0.6.0",
+    "cocktail-trait-advisable": "git://github.com/CocktailJS/lab-trait-advisable.git"
+  },
+  "devDependencies": {
     "qunit": "~0.7.5"
   }
 }

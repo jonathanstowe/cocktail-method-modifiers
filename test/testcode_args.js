@@ -39,8 +39,7 @@ cocktail.mix(Test, {
             }
         },
         around: {
-            around_meth: function(orig) {
-                var args = Array.prototype.slice.call(arguments, 1);
+            around_meth: function(orig, args) {
                 this.around_val.push("TEST_AROUND_FIRST");
                 orig.apply(this, args);
                 this.around_val.push("TEST_AROUND_LAST");
